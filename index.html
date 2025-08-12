@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Malla Curricular</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      margin: 0;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+    }
+    .semestre {
+      background: white;
+      border-radius: 10px;
+      padding: 15px;
+      margin-bottom: 20px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    }
+    .materia {
+      padding: 8px;
+      border-bottom: 1px solid #eee;
+    }
+    .aprobada {
+      color: green;
+      font-weight: bold;
+    }
+    .cursando {
+      color: orange;
+      font-weight: bold;
+    }
+    .pendiente {
+      color: gray;
+      font-weight: bold;
+    }
+    a {
+      text-decoration: none;
+      color: blue;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>📚 Malla Curricular</h1>
+
+  <div class="semestre">
+    <h2>1er Semestre</h2>
+    <div class="materia aprobada">Matemática I - <a href="https://link-a-tus-apuntes.com">Apuntes</a></div>
+    <div class="materia cursando">Comunicación Oral y Escrita - <a href="#">Apuntes</a></div>
+    <div class="materia pendiente">Introducción a la Psicología - <a href="#">Apuntes</a></div>
+  </div>
+
+  <div class="semestre">
+    <h2>2do Semestre</h2>
+    <div class="materia pendiente">Matemática II (Prerequisito: Matemática I) - <a href="#">Apuntes</a></div>
+    <div class="materia pendiente">Filosofía - <a href="#">Apuntes</a></div>
+    <div class="materia pendiente">Estadística I - <a href="#">Apuntes</a></div>
+  </div>
+
+</body>
+</html>
